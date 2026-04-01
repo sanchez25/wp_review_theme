@@ -1,0 +1,83 @@
+:root{
+   --background: #fbf8f1;
+   --header: #1e242c;
+   --menu: #fff;
+   --link: #eba52e;
+   --hover: #b72721;
+   --border: #ebe9e3;
+   --text-first: #edeae6;
+   --shadow-card: 0 0 12px 0 rgba(0,0,0,.1);
+   --border-card: #dfdfdf;
+   --radius-card: 15px;
+   --radius-btn: 25px;
+   --radius-sidebar: 5px;
+   --card-name: #b8def9;
+   --card-rating: #4361ee;
+   --card-number: #f9f9f9;
+   --text: #000;
+   --disclamer: #0a0a0d;
+   --rating-color: #3e3e40;
+   --rating-second: #626466;
+   --border-table: #f0f0f0;
+   --color-table: #f4fafd;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+html { scroll-behavior: smooth; }
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Roboto" ,sans-serif;;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+footer, header, nav, section, main{
+    display: block;
+}
+
+body{
+    line-height: 1;
+}
+
+button {
+    cursor: pointer;
+}
+
+blockquote, q{
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after{
+    content: '';
+    content: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input{
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+.wp-block-table {max-width: 100%;overflow: hidden; border-radius: var(--radius-card); margin-bottom: 20px; border: 1px solid var(--border-table);}
+.wp-block-table table {width:100%; border-collapse: collapse;}
+.wp-block-table table td { text-align:center; padding:15px; color: var(--text); font-size: 16px;}
+.wp-block-table table tr:nth-child(2n) {background: #f4fafd;}
